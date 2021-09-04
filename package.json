@@ -1,17 +1,19 @@
 {
   "name": "@3nuc/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Base eslint configs for my projects since I'm tired of setting it up from scratch all the time. The goal heare is that you can write in your .eslintrc \"extend: \"@3nuc/eslint\"\". Inspired by https://github.com/antfu/eslint-config",
   "main": ".eslintrc.js",
   "scripts": {
-    "lint": "eslint --config index.js"
+    "lint": "eslint tests/**"
   },
   "author": "3nuc",
   "license": "MIT",
-  "devDependencies": {
-    "eslint": "^7.32.0",
+  "dependencies": {
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-vue": "^7.17.0",
     "@typescript-eslint/eslint-plugin": "^4.30.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0"
   }
 }
