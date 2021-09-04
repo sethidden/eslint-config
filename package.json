@@ -8,6 +8,9 @@
   },
   "author": "3nuc",
   "license": "MIT",
+  "peerDepenies": {
+    "eslint": ">=7.4.0"
+  },
   "dependencies": {
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-vue": "^7.17.0",
@@ -15,5 +18,8 @@
   },
   "devDependencies": {
     "eslint": "^7.32.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
