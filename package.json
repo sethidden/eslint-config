@@ -1,6 +1,6 @@
 {
   "name": "@3nuc/eslint-config",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Base eslint configs for my projects since I'm tired of setting it up from scratch all the time. The goal heare is that you can write in your .eslintrc \"extend: \"@3nuc/eslint\"\". Inspired by https://github.com/antfu/eslint-config",
   "main": "index.js",
   "scripts": {
